@@ -10,7 +10,7 @@ Project Overview
     FROM superstore_db.superstore
     group by region;
 
-*2.Top 5 profitable products
+*2.Top 5 profitable category
 
     select 
       category, 
@@ -36,7 +36,7 @@ Project Overview
     from superstore 
     Group by discount;
 
-*5.Which 10 sub-categories generate the highest and lowest profit.
+*5.Which 10 sub-categories generate the highest profit.
 
     Select 
     sub_category,
